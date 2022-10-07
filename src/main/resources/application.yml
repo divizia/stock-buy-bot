@@ -1,0 +1,14 @@
+bot:
+  token: 5691749345:AAEyh5rWZVPDF4su9DciKzRH7wlS1pRCAcw
+  username: divizia_testbot
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/telegrambot
+    username: postgres
+    password: 159753
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate.ddl-auto: update

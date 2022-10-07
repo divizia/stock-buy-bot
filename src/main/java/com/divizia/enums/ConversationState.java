@@ -1,0 +1,11 @@
+package com.divizia.enums;
+
+public enum ConversationState {
+    CONVERSATION_STARTED,
+    WAITING_FOR_FIRSTNAME,
+    WAITING_FOR_LASTNAME,
+    WAITING_FOR_OFFICE_ID,
+    WAITING_FOR_EXCHANGE,
+    WAITING_FOR_STOCK,
+    WAITING_FOR_AMOUNT
+}
